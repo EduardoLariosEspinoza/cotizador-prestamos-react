@@ -4,7 +4,7 @@ import Button from "./components/Button";
 import { formatearDinero, calcularTotalPagar } from "./helpers";
 
 function App() {
-  // Los states se declaran para valores que pueden o van a cambiar
+  // Los states se declaran para valores que pueden o van a cambiar a lo largo de la aplicacion
 
   // const [Estado, funcionQueCambiaElEstado] = useState(ValorInicial)
   const [cantidad, setCantidad] = useState(10000);
